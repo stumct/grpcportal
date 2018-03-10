@@ -37,7 +37,7 @@ An insecure server is the simplest way to get started. All that needs defined in
 	log.Fatal(s.Serve())
 
 ## Starting a Secure server with TLS
-A Secure server will take the string representation of the `certificate` and the `key`
+A Secure server will take the string representation of the `certificate` and the `key`. If you need to generate certificates then a tool such as `cfssl` can be used https://github.com/cloudflare/cfssl
 
     testsvc := TestSvc{}
     
